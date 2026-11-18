@@ -65,6 +65,18 @@
         margin: 0;
       }
     </style>
+    <!-- 自定义中文字体（jiekp），加载失败时回退到系统字体 -->
+    <style>
+      @font-face {
+        font-family: "jiekp";
+        src: url("https://file.hhhi.cn/down.php/f0e892e20f190a7e0b48685aa81c2a15.woff")
+          format("woff");
+        font-display: swap;
+      }
+      body {
+        font-family: "jiekp", "HarmonyOS_Regular", sans-serif;
+      }
+    </style>
   </head>
 
   <body>
